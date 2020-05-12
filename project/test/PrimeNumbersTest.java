@@ -33,7 +33,7 @@ public class PrimeNumbersTest {
     public void testIsPrime1() {
         System.out.println("isPrime");
         int n = 5;
-        boolean expResult = false;
+        boolean expResult = true;
         boolean result = PrimeNumbers.isPrime(n);
         assertEquals(expResult, result);
     }
